@@ -2,19 +2,19 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   Enthium:
   - $$mdi:keyboard-esc$$
-  - Z
+  - Q
   - Y
   - O
   - U
   - Super Copy
   - $$mdi:volume-high$$
-  - Q
+  - X
   - L
   - D
-  - P
-  - X
-  - Undo Redo
   - W
+  - Z
+  - Undo Redo
+  - B
   - C
   - I
   - A
@@ -40,7 +40,7 @@ layers:
   - J
   - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, h: RGUI}
-  - {t: B, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-option$$'}
   - {t: V, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: NUM Word, h: Num}
