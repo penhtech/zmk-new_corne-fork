@@ -7,7 +7,7 @@ layers:
   - O
   - U
   - Super Copy
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - X
   - L
   - D
@@ -20,9 +20,9 @@ layers:
   - A
   - E
   - {t: ',', s: ;}
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - K
   - H
   - T
@@ -36,7 +36,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '@', s: '#'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - J
   - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, h: RGUI}
@@ -105,7 +105,7 @@ layers:
   - Find
   - Refresh
   - '&new_file'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-high$$
   - KP MULTIPLY
   - KP 7
   - KP 8
@@ -113,14 +113,14 @@ layers:
   - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&select_all'
   - Save
   - Select Word
   - {t: '$$mdi:transfer$$', type: trans}
   - New Tab
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
   - KP PLUS
   - KP 4
   - KP 5
@@ -134,7 +134,7 @@ layers:
   - '&quick_cmd_tab'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-low$$
   - KP DIVIDE
   - KP 1
   - KP 2
